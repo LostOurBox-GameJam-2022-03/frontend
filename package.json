@@ -4,6 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "lint": "./node_modules/.bin/eslint **/*.ts",
+    "lint:fix": "./node_modules/.bin/eslint **/*.ts --fix",
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "sh ./build-script.sh"
   },
@@ -14,6 +16,9 @@
     "pixi.js": "^6.2.1"
   },
   "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^5.13.0",
+    "@typescript-eslint/parser": "^5.13.0",
+    "brfs": "^2.0.2",
     "eslint": "^8.2.0",
     "eslint-config-airbnb-base": "^15.0.0",
     "eslint-plugin-import": "^2.25.2",

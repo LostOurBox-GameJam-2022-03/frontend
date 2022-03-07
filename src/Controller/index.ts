@@ -1,1 +1,1 @@
-export { Controller, ButtonTypes } from "./Controller"
+export { Controller, ButtonTypes } from "./Controller";
